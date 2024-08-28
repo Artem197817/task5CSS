@@ -1,9 +1,25 @@
 @media screen and (max-width: 1382px) {
-    .present {
-        display: none;
+    .present-container{
+        width: 70px;
+        height: 70px;
+    
     }
+    .order-present-img{
+        width: 140px;
+    }
+    .order-present-text{
+        top: 9px;
+        left: 10px;
+        width: 118;
+        font-size: 11px;
+    }
+    .present-image{
+        width: 46px;
+    }
+    .order-present {
+        right: 109px;
 }
-
+}
 @media screen and (max-width: 1199px) {
 
 .order-image-motion.big-berry {
@@ -40,7 +56,7 @@
     .advantages .container {
         display: grid;
         grid-template-columns:  minmax(346px, 512px)  minmax(346px, 512px);
-        grid-template-rows: 325px 223px 621px;
+        grid-template-rows: 328px 223px 621px;
         padding-top: 119px;
         padding-bottom: 123px;
 
@@ -66,12 +82,14 @@
     }
 
     .advantages-title h2 {
-        max-width: 489px;
+        max-width: 505px;
         margin: 0 auto;
+
     }
 
     .advantages-title-text {
         margin-top: 55px;
+        max-width: 674px;
     }
 
     .advantages-info {
@@ -145,7 +163,7 @@
         margin-left: 27px;
         margin-right: 27px;
     }
-
+ 
     .button {
         position: relative;
         z-index: 99;
@@ -236,8 +254,8 @@
     .title .container {
 
         padding-top: 40px;
-        padding-bottom: 104px;
-       min-height:   516px;
+        padding-bottom: 44px;
+       min-height: 530px;
         display: block;
         box-sizing: content-box;
     }
@@ -277,19 +295,21 @@
     .advantages .container {
         padding-top: 92px;
         grid-template-columns:  minmax(175px, 512px)  minmax(175px, 512px);
-        grid-template-rows: 280px 265px 584px;
+        grid-template-rows: 280px 243px 590px;
+        padding-bottom: 98px;
     }
 
     .advantages-title h2 {
         font-size: 30px;
         line-height: 35px;
         font-weight: 500;
-        margin-bottom: 35px;
+    
     }
 
     .advantages-title-text {
         font-size: 16px;
         line-height: 23px;
+        margin-top: 40px;
     }
 
     .advantage-text {
@@ -411,6 +431,29 @@
         top: 228px;
         left: 289px;
     }
+    .present-container{
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 15px;
+    
+    }
+    .order-present-img{
+        width: 99px;
+    }
+    .order-present-text{
+        top: 8px;
+        left: 8px;
+        width: 84;
+        font-size: 8px;
+    }
+    .present-image{
+        width: 32px;
+    }
+    .order-present {
+        right: 74px;
+        bottom: 30px;
+}
 }
 
 @media screen and (max-width: 374px) {
